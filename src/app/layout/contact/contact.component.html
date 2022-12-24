@@ -1,0 +1,117 @@
+<div class="main_div">
+    <h1>Contact Us</h1>
+    <img src="../../../assets/contactus.jpg" alt="" />
+  
+    <div class="breadcrumb_div">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container main_contact_div">
+    <div class="row">
+      <div class="col-md-6 col-lg-6 col-sm-12">
+
+        <div class="row left_main_div">
+        <div class="col heading_div">
+        <h1>How Can We help ?</h1>
+        <h1>Get In touch with <br> our company</h1>
+          </div>
+          <div class="col">    
+        <p class="heading_p">Have Questions ?</p>
+        <p class="heading_p">Fill Out our Contact Form, and we'll put you in touch with the right people.</p>
+        </div>
+        <div class="col form_div">
+          <form class="example-form" [formGroup]="contactUsForm">
+            <mat-form-field  class="example-full-width" appearance="outline">
+              <mat-label>Name</mat-label>
+              <input type="text" matInput formControlName="name" 
+                     placeholder="Name" autocomplete="off">
+            </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Email</mat-label>
+              <input type="email" matInput formControlName="email" 
+                     placeholder="Email" autocomplete="off">
+            </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Phone No</mat-label>
+              <input type="text" matInput formControlName="phoneNumber" 
+                     placeholder="Phone Number" autocomplete="off">
+            </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Subject</mat-label>
+              <input type="text" matInput formControlName="subject" 
+                     placeholder="Subject" autocomplete="off">
+            </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Question/Message</mat-label>
+              <textarea matInput formControlName="message" placeholder="Question/Message" autocomplete="off"></textarea>
+            </mat-form-field>
+          </form>
+          <button class="submit_btn">Submit  <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+        </div>
+    
+        </div>
+       
+      </div>
+      <div class="col-md-6 col-lg-6 col-sm-12 right_div">
+        <div class="row right_main_div">
+          <div class="col">
+            <div class="row info_cards">
+              <div class="col-lg-3 col-md-3 ">
+                <i class="fa fa-map-marker fa_icon" aria-hidden="true"></i> 
+              </div>
+              <div class="col-lg-9 col-md-9 info_details">
+                <h3>Address :</h3>
+
+                  <span>PLOT NO. C-2276, SHUSHANT LOK PHASE-I, GURGAON, HARYANA 122001</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row info_cards">
+              <div class="col-lg-3 col-md-3 ">
+                <i class="fa fa-mobile fa_icon" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-9 col-md-9 info_details">
+                <h3>Telephone : </h3>
+                <span>0124 - 4272253</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="row info_cards">
+              <div class="col-lg-3 col-md-3 ">
+                <i class="fa fa-envelope-o fa_icon" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-9 col-md-9 info_details">
+                <h3>Email : 
+                
+                </h3>
+
+                <span>info@sinosef.com</span><br>
+                 <span>Seplag73@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row flex-column">
+              <div class="col social_media_div">
+                <h1>Facebook  </h1>
+                <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+              </div>
+              <div class="col social_media_div">
+                <h1>LinkedIn </h1>
+                <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

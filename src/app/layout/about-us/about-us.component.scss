@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+
+.main_div > img{
+    max-width: 100%;
+    width: 100%;
+    /* max-height: 100%; */
+    display: block;
+    /* height: 50%; */
+    /* height: auto; */
+    height: 55vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_div::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.main_div{
+    position: relative;
+}
+
+.main_div > h1{
+    position: absolute;
+    color: white;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    // font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Slab", serif;
+
+    font-weight: 600;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.breadcrumb_div{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    z-index: 999;
+}
+
+.active::before {
+    font-family: 'FontAwesome';
+    content: "\f105";
+    color: #fff;
+}
+
+.breadcrumb-item{
+    font-size: 1.8rem;
+    font-family: "Roboto Slab", serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.breadcrumb-item > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active{
+    color: #fab915;
+}
+
+.content_div{
+    // background-color: red;
+    margin-top: 50px;
+    width: 100%;
+    // height: 100vh;
+}
+
+.about_us_head::before{
+    font-family: 'FontAwesome';
+    content: '\f111';
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.about_us_head{
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    line-height: 54px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    font-size: 2.8rem;
+    
+
+}
+.about_us_head > span{
+    color: #079992;
+}
+.leaders_head{
+    font-size: 2.3rem;
+    font-family: 'Unbounded', cursive;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: 400;
+    color: #222f3e;
+}
+
+.image_div > img{
+    width: 100%;
+}
+
+.col-md-auto > h2{
+    font-size: 2rem;
+    letter-spacing: 1.9px;
+    padding-top: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    // font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+  
+  .image_box{
+    position: relative;
+    min-height: 560px;
+    display: inline-block;
+    /* margin-left: 0px; */
+    left: 50px;
+  }
+
+  .image_box:hover{
+ cursor: pointer;
+ animation: pulse;
+ animation-duration: 1.5s;
+  }
+
+  .image_box > img{
+    position: absolute;
+    left: -9px;
+    top: 41px;
+    width: 100%;
+}
+
+.about_company_div{
+    position: relative;
+    z-index: 999;
+    margin-top: 10px;
+}
+
+.about_company_div > p{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    word-spacing: 0.8px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7A7A7A;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.image_one{
+    position: absolute;
+    width: 47%;
+}
+
+.image_one > img{
+    max-width: 100%;
+max-height: 100%;
+border-radius: 10px;
+
+}
+
+.image_two{
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-top: 262px;
+}
+.image_two > img{
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.image_three{
+    position: absolute;
+    float: left;
+    top: 381px;
+    padding: 10px 14px;
+    width: 360px;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #078586;
+    height: 143px;
+    min-height: 143px;
+}
+
+
+
+
+
+.image_three_internal > h1{
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.image_three_internal > i{
+    position: absolute;
+    border: 10px;
+    right: 10px;
+    font-size: 50px;
+    color: #707070;
+
+}
+
+.image_three_internal > p{
+    display: inline-block;
+    position: absolute;
+    border: 10;
+    bottom: 21px;
+    font-size: 1.7rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+}
+.our_services{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.our_services_btn{
+    display: inline-block;
+    padding: 0px 25px;
+    border-radius: 10px 0px 10px 0px;
+    background: var(--primary-color-one);
+    color: #fff;
+    border: 1px solid var(--primary-color-one);
+    line-height: 56px;
+    min-height: 56px;
+    min-width: 160px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.our_services_btn:hover{
+    background: #fff;
+    color: var(--primary-color-one);
+    border-radius: 0px 10px 0px 10px;
+    transition: all 0.5s ease;
+}
+
+.director_div_main{
+    background-color: #F0F3F9;
+    margin-top: 50px;
+    overflow-x: hidden;
+}
+.image_div_two{
+    width: 43%;
+    padding-bottom: 46px;
+    position: relative;
+    cursor: pointer;
+}   
+
+.director_div > .row{
+    padding: 40px;
+}
+
+.image_div_two > img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.right_strips{
+    position: absolute;
+    float: right;
+    right: 185px;
+    opacity: 0.1;
+}
+
+.left_circle{
+position: absolute;
+float: left;
+bottom: 10px;
+left: 165px;
+opacity: 0.1;
+
+}
+
+
+
+.bulb_img{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.director_heading{
+    padding-top: 60px;
+    text-transform: uppercase;
+    font-size: var(--heading-size-main);
+    font-family: "Roboto Slab", serif;
+    color: #fa360a;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 30px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    word-spacing: 1.5px;
+}
+
+.director_heading::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #ee5253;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.director_heading:hover::after{
+    width: 100%;
+}
+
+.about_director_div > p{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    word-spacing: 0.8px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7A7A7A;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.about_director_div{
+    margin-top: 67px;
+}
+
+.director_links{
+    margin-top: 20px;
+}
+
+.director_links > i{
+    font-size: 4rem;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.director_links >i:first-child{
+    color: #4267B2;
+}
+
+.director_links >i:nth-child(2){
+    color: #0A66C2;
+}
+
+.director_links >i:nth-child(3){
+    color: #ee5253;
+}
+
+.director_links >i:last-child{
+    color:#1DA1F2
+}
+
+.company_vision_main{
+    margin-top: 50px;
+}
+
+.our_mission_img_left{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px 10px 200px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   
+}
+
+.our_mission_img_left:hover{
+    opacity: 1;
+    cursor: pointer;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+.our_mission_right_img_div{
+    width: 40vw;
+    height: 400px;
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: center;
+
+}
+.our_vision_right_cont_div{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+margin-right: 59px;
+}
+.our_mission_right_cont_div{
+    
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-left: 59px;
+}
+
+.about_company_heading{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    // color: #222f3e;
+    font-family: "Roboto Slab", serif;
+
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    // background-image: linear-gradient(to right, #eb2f06, #eb2b12, #eb271a, #eb2421, #ea2027);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: relative;
+}
+.about_company_p{
+    color: #7A7A7A;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    word-spacing: 1.5px;
+    text-align: justify;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.our_vision{
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+.our_vision_right_img_div{
+    width: 40vw;
+    height: 400px;
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+
+.our_vision_img_right{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px 10px 10px 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   
+}
+
+
+.our_vision_img_right:hover{
+    cursor: pointer;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.mission_heading{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mission_heading > h1{
+    font-size: 4rem;
+    margin-bottom: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #222f3e;
+    font-family: "Roboto Slab", serif; 
+  position: relative;
+}
+
+.mission_heading > h1::before{
+    content: "";
+    width: 15%;
+    height: 3px;
+    background: #ee5253;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    transition: 0.5s;
+}
+.mission_heading > h1::after{
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #ee5253;
+    position: absolute;
+    left: 59px;
+    bottom: -15px;
+    transition: 0.5s;
+}
+
+.mission_heading > h1 > span{
+    color: #fed330;
+}
+
+.mission_heading > h5{
+    font-size: 2rem;
+    // margin-bottom: 25px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #222f3e;
+    font-family: "Roboto Slab", serif; 
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 600;
+
+  position: relative;
+}

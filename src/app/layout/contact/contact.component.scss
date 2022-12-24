@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.main_div > img{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+
+    height: 55vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_div::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.main_div{
+    position: relative;
+}
+
+.main_div > h1{
+    position: absolute;
+    color: white;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    // font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Slab", serif;
+
+    font-weight: 600;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.breadcrumb_div{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    z-index: 999;
+}
+
+.active::before {
+    font-family: 'FontAwesome';
+    content: "\f105";
+    color: #fff;
+}
+
+.breadcrumb-item{
+    font-size: 1.8rem;
+    font-family: "Roboto Slab", serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.breadcrumb-item > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active{
+    color: #fab915;
+}
+
+
+.heading_div > h1:first-child{
+    font-size: 24px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: "Roboto Slab", serif;
+    margin-left: 10px;
+
+}
+
+.heading_div > h1:nth-child(2){
+
+    font-size: 50px;
+    margin-bottom: 45px;
+    color: #111;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+    margin-top: 15px;
+    text-align: left;
+
+}
+
+.heading_p{
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #444;
+    font-family: "Montserrat", sans-serif;
+    // font-weight: 400;
+    font-weight: 500;
+}
+
+.main_contact_div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 100vh;
+}
+
+.left_main_div{
+    flex-direction: column;
+}
+
+.example-full-width{
+    width: 100%;
+    font-size: 14px !important;
+}
+
+.form_div{
+    margin-top: 40px;
+}
+
+
+::placeholder{
+    color: #7A7A7A;
+font-family: "Montserrat", sans-serif;
+letter-spacing: 1px;
+
+
+}
+
+.right_div{
+    background: #000;
+    color: #fff;
+    padding: 100px 50px;
+    width: 42%;
+    margin-left: 100px;
+    box-shadow: #26394d -13px 12px 30px -10px;
+}
+
+.right_main_div{
+    flex-direction: column;
+}
+
+
+.fa_icon{
+    font-size: 30px;
+    color: #ffee02;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 17px;
+
+}
+
+.info_cards{
+    margin: 30px 0;
+    position: relative;
+}
+
+.info_details > h3{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1.6px;
+font-family: "Montserrat", sans-serif;
+
+}
+
+.info_details > span{
+    font-size: 15px;
+    color: #b7b7b7;;
+font-family: "Montserrat", sans-serif;
+margin-bottom: 20px;
+    
+}
+
+.info_cards::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: -20px;
+    background: #181818;
+}
+
+.social_media_div{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border: 1px solid #525252;
+    padding: 15px 30px;
+    cursor: pointer;
+    width: 90%;
+    margin-left: 27px;
+    transition: .3s ease-in-out;
+
+}
+
+.social_media_div > h1{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+font-family: "Montserrat", sans-serif;
+
+    font-weight: 500;
+}
+
+.social_media_div > span{
+    font-size: 20px;
+
+}
+
+.social_media_div:hover{
+    background: #fff;
+    color: #111;
+}
+
+
+
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: rgba(#525252, 0.75) !important;
+  }
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: #2f3542!important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px !important;
+
+}
+
+::ng-deep .mat-form-field-label {
+    color: rgba(0,0,0,.6)!important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 15px;
+
+    // color: $mainColor!important;
+}
+
+
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #4b6584!important;
+}
+

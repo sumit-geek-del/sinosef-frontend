@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.container-fluid{
+    min-height: 20vh;
+    // margin-top: 15px;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+.contact_us_heading{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    font-family: 'Merriweather', serif;
+    color: #05c46b;
+}
+
+.main_div_footer{
+    padding-top: 43px;
+}
+.left_div{
+    margin-left: 222px;
+    padding: 29px 0;
+}
+
+.company_details > p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: 1.5px;
+    font-weight: 500;
+
+
+
+}
+.company_details{
+    width: 60%;
+}
+.company_details > p > i{
+    color: #fff;
+    font-size: 20px;
+    margin-right:6px;
+    cursor: pointer;
+}
+
+.company_details > p > i:hover{
+    // color: #ffd32a;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: 1.4s all ease;
+    color: #fab915;
+    transform: rotate(360deg);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    margin-top:30px ;
+}
+.nav-links > p{
+    margin-right: 17px;
+    border-right: 1px solid #999999;
+    padding: 0 10px 0 0;
+    font-size: 17px;
+    cursor: pointer;
+   color: #999999;
+   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.8s;
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.nav-links > p:hover{
+    color:#fab915;
+}
+.career{
+    border: none !important;
+}
+
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.footer_right_icons{
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 30px;   
+}
+.footer_right_icons > i{
+    font-size: 30px;
+    margin-right: 25px;
+    color: #999999;
+    cursor: pointer;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.8s;
+}
+
+.footer_right_icons > i:first-child:hover{
+    color: #4267B2;
+}
+
+.footer_right_icons > i:nth-child(2):hover{
+    color: #0A66C2;
+}
+
+.footer_right_icons > i:nth-child(3):hover{
+    color: #ee5253;
+}
+
+.footer_right_icons > i:last-child:hover{
+    color: #FF0000;
+}
+
+.rights_div > p{
+    font-size: 14px;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #999999;
+    -webkit-transition: color 1s; 
+    transition: color 0.8s;
+    
+
+}
+.rights_div > p:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.rights_div {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.company_logo > img{
+    width: 44%;
+}
