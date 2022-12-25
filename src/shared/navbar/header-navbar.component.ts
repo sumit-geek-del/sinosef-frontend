@@ -15,7 +15,7 @@ export class HeaderNavbarComponent implements OnInit {
 
   routeToComponent(path:string){
 
-    this._router.navigate([path]);
+    this._router.navigate([path], {skipLocationChange:true});
   }
 
 }

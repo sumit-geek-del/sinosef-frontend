@@ -22,6 +22,21 @@ const routes: Routes = [
     path:'images', loadChildren:()=> import('./layout/gallery/images/images.module').then((m)=> {return m.ImagesModule}).catch((err)=>{
       throw new Error(`Error in the App Routing Module of images ${err}`)
     })
+  },
+  {
+    path:'ongoing', loadChildren:()=> import('./layout/projects/ongoing-projects/ongoing.module').then((m)=> {return m.OngoingModule}).catch((err)=>{
+      throw new Error(`Error in the App Routing Module of Ongoing Projects ${err}`)
+    })
+  },
+  {
+    path:"completed", loadChildren:()=> import('./layout/projects/completed-projects/completed-projects.module').then((m)=> {return m.CompletedProjectsModule}).catch((err)=>{
+      throw new Error(`Error in the App routing module of completed projects ${err}`);
+    })
+  },
+  {
+    path:"video", loadChildren:()=>import('./layout/gallery/videos/video-gallery.module').then((m)=>{return m.VideoGalleryModule}).catch((err)=>{
+      throw new Error(`Error in app routing module of video gallery ${err}`)
+    })
   }
 ];
 

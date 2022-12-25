@@ -25,8 +25,8 @@
               Projects
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">OnGoing</a></li>
-              <li><a class="dropdown-item" href="#">Completed</a></li>
+              <li><a class="dropdown-item" (click)="routeToComponent('ongoing')">OnGoing</a></li>
+              <li><a class="dropdown-item" (click)="routeToComponent('completed')">Completed</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -35,7 +35,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" (click)="routeToComponent('images')">Images</a></li>
-              <li><a class="dropdown-item" href="#">Videos</a></li>
+              <li><a class="dropdown-item" (click)="routeToComponent('video')">Videos</a></li>
             </ul>
           </li>
   
