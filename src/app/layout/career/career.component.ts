@@ -21,7 +21,8 @@ export class CareerComponent implements OnInit {
       name:[],
       email:[],
       phoneNumber:[],
-      address:[]
+      address:[],
+      appliedPost:[]
 
     })
   }

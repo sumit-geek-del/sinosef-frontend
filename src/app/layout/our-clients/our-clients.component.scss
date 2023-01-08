@@ -3,7 +3,7 @@
     width: 100%;
     display: block;
   
-    height: 55vh;
+    height: 35vh;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,8 +46,8 @@
 
 .breadcrumb_div{
     position: absolute;
-    top: 42%;
-    left: 43%;
+    top: 46%;
+    left: 44%;
     z-index: 999;
 }
 
@@ -174,4 +174,26 @@ border-radius: 10px;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     color: #6e6e6e;
+}
+
+@media screen and (max-width:768px) {
+    .main_div > img{
+        height: 25vh;
+    }
+    .breadcrumb_div{
+        top: 58%;
+        left: 23%;
+    }
+    .breadcrumb-item{
+        font-size: 15px;
+    }
+    .main_heading{
+        font-size: 20px;
+    }
+    .main_p{
+        width: 100%;
+        font-size: 17px;
+        text-align: left;
+        margin-left: 15px;
+    }
 }
